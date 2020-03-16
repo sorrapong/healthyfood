@@ -6,12 +6,13 @@ target 'HealthyFood' do
   use_frameworks!
 
   # Pods for HealthyFood  
-
+  pod "AFNetworking", "~> 2.0"
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'SwiftyJSON'
 
   target 'HealthyFoodTests' do
-    pod "AFNetworking", "~> 2.0"
-    pod 'GoogleMaps'
-    pod 'GooglePlaces'
+    
     inherit! :search_paths
     # Pods for testing
   end

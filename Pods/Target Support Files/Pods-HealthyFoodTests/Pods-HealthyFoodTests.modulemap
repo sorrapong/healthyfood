@@ -1,0 +1,6 @@
+framework module Pods_HealthyFoodTests {
+  umbrella header "Pods-HealthyFoodTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
